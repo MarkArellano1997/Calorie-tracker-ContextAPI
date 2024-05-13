@@ -5,9 +5,7 @@ import { useActivity } from "../hooks/useActivity"
 export default function ActivityList() {
 
     const{state, dispatch, categoryName, isEmptyActivities}=useActivity()
-
-    const{activities}=state
-
+    
     return (
         <>
             <h2 className="text-4xl font-bold text-slate-600 text-center">
